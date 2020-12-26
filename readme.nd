@@ -1,0 +1,18 @@
+使用方式:
+1.
+nodemon server.js
+會開啟server端監控
+
+2.
+將index.html點開
+會開啟client端，若開很多分頁，會產生很多個client端
+
+3.
+於client端 F12 console中
+ws.send("info")
+會發先server端會將資料print出
+client端也會接收來自server端的回信
+其他client端也會收到來自該client的訊息
+
+#heroku 銜接 教學
+https://ms314006.github.io/heroku-deploy/
